@@ -2,7 +2,6 @@ import sqlite3
 
 DATABASE_NAME = "expenses.db"
 
-
 def init_db():
     conn = sqlite3.connect(DATABASE_NAME)
     cursor = conn.cursor()

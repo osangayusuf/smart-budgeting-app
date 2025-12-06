@@ -1,7 +1,7 @@
 import streamlit as st
 
 def main():
-# Define the pages
+    # Define the pages
     home = st.Page("home.py", title="Home", icon="🏠", default=True)
     add_expenses = st.Page("add_expenses.py", title="Add Expenses", icon="💸")
     view_expenses = st.Page("view_expenses.py", title="View Expenses", icon="📊")
